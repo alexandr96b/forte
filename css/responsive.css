@@ -9,8 +9,11 @@
 @media (max-width: 1410px) {
 
 }
-@media (max-width: 1300px) {
-	
+@media (max-width: 1220px) {
+	.b-item span{
+		letter-spacing: -0.8px;
+		font-size: 13px;
+	}
 }
 
 @media (max-width: 1199px) {
