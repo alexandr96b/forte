@@ -70,6 +70,16 @@ $( ".datepicker" ).datepicker({
 });
 
 
+$('.b-structure-item__btn').click(function(){
+  $(this).parent().parent().next().slideToggle('active');
+  $(this).toggleClass('active');
+  if ($(this).hasClass('active')) {
+      $(this).text('Скрыть');
+  } else{
+      $(this).text('Подробно');
+  }
+});
+
 
 $(".btn-price").click(function (event) {
     event.preventDefault();
