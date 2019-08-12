@@ -830,8 +830,8 @@ textarea{
 	position: absolute;
     top: 6px;
     left: 6px;
-	width: 177px;
-	height: 177px;
+	width: 135px;
+	height: 135px;
 }
 .chart-item:hover{
 	opacity: 0.6;
@@ -855,6 +855,7 @@ textarea{
 	opacity: 0;
 	visibility: hidden;
 	transition: 0.3s;
+	min-width: 90px;
 }
 .chart-item:hover .chart-info{
 	opacity: 1;
