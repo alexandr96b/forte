@@ -833,6 +833,56 @@ textarea{
 	width: 177px;
 	height: 177px;
 }
+.chart-item:hover{
+	opacity: 0.6;
+	transition: 0.3s;
+}
+.chart-info{
+	position: absolute;
+	top: -60px;
+	left: 50%;
+    padding: 4px 9px;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	background-color: #f1547e;
+	background-image: -webkit-linear-gradient(299deg, #919191 0%, #535353 99%, #535353 100%);
+	background-image: -o-linear-gradient(299deg, #919191 0%, #535353 99%, #535353 100%);
+	background-image: linear-gradient(29deg, #919191 0%, #535353 99%, #535353 100%);
+	border-radius: 6px;
+	box-shadow: 1.3px 2.7px 13px rgba(108, 123, 153, 0.65);	
+	z-index: 100;
+	opacity: 0;
+	visibility: hidden;
+	transition: 0.3s;
+}
+.chart-item:hover .chart-info{
+	opacity: 1;
+	visibility: visible;
+	transition: 0.3s;
+}
+.chart-info__red{
+	background-color: #f1547e;
+	background-image: -webkit-linear-gradient(299deg, #e36969 0%, #e36969 0%, #a60000 100%);
+	background-image: -o-linear-gradient(299deg, #e36969 0%, #e36969 0%, #a60000 100%);
+	background-image: linear-gradient(29deg, #e36969 0%, #e36969 0%, #a60000 100%);
+	border-radius: 6px;
+	box-shadow: 1.3px 2.7px 13px rgba(108, 123, 153, 0.63);
+}
+.chart-info span{
+	display: block;
+	color: #ffffff;
+	font-size: 12px;
+	font-weight: 400;
+	line-height: 22px;
+}
+.chart-info b{
+	display: block;
+	color: #ffffff;
+	font-size: 13px;
+	font-weight: 900;
+	line-height: 16px;
+}
 .b-round-img{
 	width: 104px;
 	height: 104px;
